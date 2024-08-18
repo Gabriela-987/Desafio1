@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  header nav ul {
+    background-color: black;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+  }
+  
+  main h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .col-md-6 {
+    flex-basis: 50%;
+  }
+  
+  label 
+    display: block
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: black;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      header nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+      }
+      header nav ul li {
+        margin-right: 20px;
+      }
+      header nav a {
+        color: #fff;
+        text-decoration: none;
+      }
+      header nav a:hover {
+        color: #ccc;
+      }
+      main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .col-md-6 {
+        flex-basis: 50%;
+        padding: 20px;
+      }
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="time"], select, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+      }
+      button[type="button"] {
+        background-color: #007bff;
+        color: #ffffff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button[type="button"]:hover {
+        background-color: #0069d9;
+      }
+      footer {
+        background-color:black;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+      footer p {
+        margin-bottom: 10px;
+      }
+      #iconos {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+      }
+      #iconos a {
+        margin-right: 10px;
+      }
+      #iconos a:hover {
+        color: #ccc;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('imagenes/Sivar.jpeg'); 
+        background-position: center;
+      }
+      nav ul li img {
+        width: 20px; /* ajusta el ancho de las imágenes */
+        height: 20px; /* ajusta el alto de las imágenes */
+        margin: 0 10px; /* agrega un margen entre las imágenes y el texto */
+      }
